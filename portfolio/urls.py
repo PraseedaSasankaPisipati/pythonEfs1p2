@@ -17,4 +17,5 @@ urlpatterns = [
     url(r'^investment/(?P<pk>\d+)/edit/$', views.investment_edit, name='investment_edit'),
     url(r'^investment/create/$', views.investment_new, name='investment_new'),
 
+	
 ]
